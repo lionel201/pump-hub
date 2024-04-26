@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+:root:not(.theme-dark) {
+    --primary: #0095ef;
+    --text: rgba(0, 0, 0, 0.6);
+    --sandy: rgba(0, 0, 0, 0.1);
+    --paper: white;
+    --tv-color-platform-background: #FFF;
+    --tv-color-pane-background: #FFF;
+    --tv-color-pane-background-secondary: #FFF;
+
+    --tv-color-toolbar-button-background-hover: var(--sandy);
+    --tv-color-toolbar-button-background-secondary-hover: var(--sandy);
+    --tv-color-toolbar-button-background-expanded: var(--sandy);
+    --tv-color-toolbar-button-text: var(--text);
+    --tv-color-item-active-text: var(--text);
+    /*--tv-color-toolbar-button-text-active: var(--primary);*/
+    /*--tv-color-toolbar-button-text-active-hover: var(--primary);*/
+    /*--tv-color-toolbar-toggle-button-background-active: var(--primary);*/
+    /*--tv-color-toolbar-toggle-button-background-active-hover: var(--primary);*/
+    /*
+    --tv-color-toolbar-button-text-hover: var(--primary);
+    --tv-color-toolbar-button-text-active: var(--primary);
+    --tv-color-toolbar-button-text-active-hover: var(--primary);
+    --tv-color-toolbar-toggle-button-background-active: var(--primary);
+    --tv-color-toolbar-toggle-button-background-active-hover: var(--primary);
+    */
+}
+
+.theme-dark:root {
+    --primary: rgba(231, 196, 120, 1);
+    --text: rgba(255, 255, 255, 0.4);
+    --paper: #131722;
+    --sandy: rgba(231, 196, 150, 0.3);
+
+    --tv-color-platform-background: #131722;
+    --tv-color-pane-background: #131722;
+    --tv-color-pane-background-secondary: #131722;
+
+    --tv-color-toolbar-button-text: var(--text);
+    --tv-color-toolbar-button-background-hover: var(--sandy);
+    --tv-color-toolbar-button-background-secondary-hover: var(--sandy);
+    --tv-color-toolbar-button-background-expanded: var(--sandy);
+    --tv-color-item-active-text: var(--text);
+    /*--tv-color-toolbar-button-text-active: var(--primary);*/
+    /*--tv-color-toolbar-button-text-active-hover: var(--primary);*/
+    /*--tv-color-toolbar-toggle-button-background-active: var(--primary);*/
+    /*--tv-color-toolbar-toggle-button-background-active-hover: var(--primary);*/
+    /*
+    --tv-color-toolbar-button-text-hover: var(--primary);
+    --tv-color-toolbar-button-text-active: var(--primary);
+    --tv-color-toolbar-button-text-active-hover: var(--primary);
+    --tv-color-toolbar-toggle-button-background-active: var(--primary);
+    --tv-color-toolbar-toggle-button-background-active-hover: var(--primary);
+    */
+}
